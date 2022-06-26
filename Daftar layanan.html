@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/StyleDaftar.css">
+    <title>Daftar layanan</title>
+  </head>
+  <body>
+
+    <!--awal navbar-->
+
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="foto/UNJANI-CIMAHI-1024x987.png" alt="" width="70" height="70" class="me-2"><strong>UNJANI</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Landing Page.html">Home</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link active" href="Daftar layanan.html">Daftar Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact Us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--akhir navbar-->
+
+    <div style="background-color: white;" class="container p-3 my-3 border">
+    <h1 class="text-center">FORM PENDAFTARAN MAHASISWA BARU</h1>
+    <form id="form" method="post">
+        <div class="alert alert-secondary">
+            <strong>DATA DIRI</strong>
+        </div>
+        <div class="row">
+            <div class="col-sm 7">
+                <div class="form-group">
+                <label>Nama Lengkap :</label>
+                <input type="text" name="nama" class="form-control" placeholder="Masukan Nama Lengkap">
+                </div>
+            </div>
+            <div class="col-sm 5">
+                <div class="form-group">
+                <label>Nomer Identitas (NIK) :</label>
+                <input type="number" name="nik" class="form-control" placeholder="Masukan Nomer NIK">
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm 4 mt-2">
+                <div class="form group">
+                    <label>Tempat Lahir :</label>
+                    <input type="text" name="tempat_lahir" class="form-control" placeholder="Masukan Tempat Lahir">
+                </div>
+            </div>
+            <div class="col-sm-3 mt-2">
+            <div class="form-group">
+                <label>Tanggal Lahir :</label>
+            <input type="date" name="tanggal_lahir" class="form-control">
+            </div>
+          </div>
+        <div class="col-sm-3 mt-2">
+            <div class="form-group">
+              <label>Status :</label>
+              <select class="form-control" name="status">
+                <option>pilih</option>
+                <option value="Belum menikah">Belum Menikah</option>
+                <option value="Menikah">Menikah</option>
+              </select>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 mt-2">
+                <div class="form-group">
+                    <label>Jenis Kelamin :</label>
+                    <br>
+                    <input type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+                    <br>
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan
+                </div>
+            </div>
+            <div class="col-sm-3 mt-2">
+                <div class="form-group">
+                    <label>Agama :</label>
+                    <select class="form-control" name="agama">
+                        <option>Pilih</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-4 mt-2">
+                <div class="form-group">
+                    <label>Kewarganegaraan :</label>
+                    <br>
+                    <input type="radio" name="kwn">Warga Negara Indonesia (WNI)
+                    <br>
+                    <input type="radio" name="kwn">Warga Negara Asing (WNA)
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 mt-2">
+                <div class="form-group">
+                    <label>E-mail :</label>
+                    <input type="email" name="email" class="form-control" placeholder="Masukan E-mail">
+                </div>
+            </div>
+            <div class="col-sm-3 mt-2">
+                <div class="form-group">
+                    <label>Nomor Handphone :</label>
+                    <input type="number" name="no_hp" class="form-control" placeholder="Masukan Nomer Handphone">
+                </div>
+            </div>
+            <div class="col-sm-5 mt-2">
+                <div class="form-group">
+                    <label>Nama Ibu Kandung :</label>
+                    <input type="text" name="ibu" class="form-control" placeholder="Masukan Nama Ibu Kandung">
+                </div>
+            </div> 
+        </div>
+        <div class="alert alert-secondary mt-5">
+            <strong>DATA ALAMAT DOMISILI</strong>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label>Alamat Rumah :</label>
+                    <textarea name="alamat_rumah" class="form-control" rows="2" id="alamat"></textarea>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label>Kode Pos :</label>
+                    <input type="number" name="kode_pos" class="form-control" placeholder="Kode Pos">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label>Kecamatan :</label>
+                    <input type="text" name="Kecamatan" class="form-control" placeholder="Kecamatan">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label>Kabupaten :</label>
+                    <input type="text" name="Kabupaten" class="form-control" placeholder="Kabupaten">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label>Provinsi :</label>
+                    <input type="text" name="Provinsi" class="form-control" placeholder="Provinsi">
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-secondary mt-5">
+            <strong>DATA PENDIDIKAN TERAKHIR</strong>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label>Asal Sekolah :</label>
+                    <input type="text" name="asal_sekolah" class="form-control" placeholder="Nama Asal Sekolah">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label>Jurusan :</label>
+                    <select class="form-control" name="pendidikan">
+                        <option>pilih</option>
+                        <option value="SMA">SMA - IPA</option>
+                        <option value="SMA">SMA - IPS</option>
+                        <option value="SMK">SMK - Ekonomi</option>
+                        <option value="SMK">SMK - Teknik</option>
+                        <option value="SMK">SMK - keterampilan</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="form-group">
+                    <label>Tahun Lusus :</label>
+                    <input type="number" name="lulusan" class="form-control" placeholder="Tahun Lulus">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="form-group">
+                    <label>Rata-Rata Nilai Rapor :</label>
+                    <input type="number" name="nilai_raport" class="form-control" placeholder="Masukan Nilai Rata-Rata Nilai Rapor">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mt-2">
+                <div class="form-group">
+                    <label>Alamat Sekolah :</label>
+                    <textarea name="alamat_sekolah" id="alamat" rows="2" class="form-control"></textarea>
+                </div>
+            </div>
+                    <div class="col-sm-3 mt-2">
+                        <div class="form-group">
+                            <label>Akreditasi Sekolah :</label>
+                    <select name="pendidikan" class="form-control">
+                        <option>Pilih</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-secondary mt-5">
+            <strong>PILIHAN PROGRAM STUDI</strong>
+        </div>
+        <div class="row">
+            <div class="col-sm mt-2">
+                <div class="form-group">
+                    <label>Pilih Program Studi :</label>
+                    <select name="prodi" class="form-control">
+                        <option>pilih</option>
+                        <option value="Teknik_Elektro_S-1">Teknik Elektro S-1</option>
+                        <option value="Teknik _Kimia_S-1">Teknik Kimia S-1</option>
+                        <option value="Teknik _Sipil_S-1">Teknik Sipil S-1</option>
+                        <option value="Magister_Teknik_sipil_S-2">Magister_Teknik_sipil_S-2</option>
+                        <option value="Teknik_Geomatika_S-1">Teknik Geomatika S-1</option>
+                        <option value="Teknik Mesin S-1">Teknik Mesin S-1</option>
+                        <option value="Teknik Industri S-1">Teknik Industri S-1</option>
+                        <option value="Teknik Metalurgi S-1">Teknik Metalurgi S-1</option>
+                        <option value="Magister Manajemen Teknologi S-2">Magister Manajemen Teknologi S-2</option>
+                        <option value="Akuntansi S-1">Akuntansi S-1</option>
+                        <option value="Manajemen S-1">Manajemen S-1</option>
+                        <option value="Magister Manajemen S-2">Magister Manajemen S-2</option>
+                        <option value="Ilmu Pemerintahan S-1">Ilmu Pemerintahan S-1</option>
+                        <option value="Ilmu Hub. Internasional S-1">Ilmu Hub. Internasional S-1</option>
+                        <option value="Magister Hub. Internasional S-2">Magister Hub. Internasional S-2</option>
+                        <option value="Ilmu Hukum S-1">Ilmu Hukum S-1</option>
+                        <option value="Magister Ilmu Pemerintahan S-2">Magister Illumu Pemerintahan S-2</option>
+                        <option value="Kimia S-1">Kimia S-1</option>
+                        <option value="Magister Kimia S-2">Magister Kimia S-2</option>
+                        <option value="Teknik Informatika S-1">Teknik Informatika S-1</option>
+                        <option value="Sistem Informasi S-1">Sistem Informasi S-1</option>
+                        <option value="Psikologi S-1">Psikologi S-1</option>
+                        <option value="Farmasi S-1">Farmasi S-1</option>
+                        <option value="Profesi Apoteker">Profesi Apoteker</option>
+                        <option value="Kedokteran S-1">Kedokteran S-1</option>
+                        <option value="Profesi Dokter">Profesi Dokter</option>
+                        <option value="Kedokteran Gigi S-1">Kedokteran Gigi S-1</option>
+                        <option value="Profesi Dokter Gigi">Profesi Dokter Gigi</option>
+                        <option value="Magister Keperawatan S-2">Magister Keperawatan S-2</option> 
+                        <option value="Profesi Ners">Profesi Ners</option>
+                        <option value="Ilmu Keperawatan S-1">Ilmu Keperawatan S-1</option>
+                        <option value="Keperawatan D-3">Keperawatan D-3</option>
+                        <option value="Kesehatan Masyarakat S-1">Kesehatan Masyarakat S-1</option>
+                        <option value="Teknologi Laboraturium Medis D-4">Teknologi Laboraturium Medis D-4</option>
+                        <option value="Teknologi Laboraturium Medis D-3">Teknologi Laboraturium Medis D-3</option>
+                        <option value="Kebidanan S-1">Kebidanan S-1</option>
+                        <option value="Profesi Bidan">Profesi Bidan</option>
+                        <option value="Kebidanan D-3">Kebidanan D-3</option>
+                        <option value="Magister Kesehatan Masyarakat S-2">Magister Kesehatan Masyarakat S-2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-success mt-2">
+            <strong>
+                <input type="checkbox" name="pernyataan1" value="pernyataan1">
+                Saya menyatakan bahwa data yang saya isikan diatas sudah benar.
+                <br>
+                <input type="checkbox" name="pernyataan2" value="pernyataan2">
+                saya bersedia menerima sanksi pembatalan penerimaan di program studi yang saya pilih apabila saya melanggar pernyataan ini.
+            </strong>
+        </div>
+        <center>
+            <button type="submit" name="submit" class="btn btn-primary">Daftar</button>
+            <button type="reset" name="reset" class="btn btn-secondary">reset</button>
+        </center>
+    </form>
+    </div>
+
+    <!--Footer-->
+  <div class="mt-5">
+    <footer class="py-3">
+      <div class="container">
+        <p class="text-white"> UNIVERSITAS JENDERAL ACHMAD YANI Website 2022</p>
+       </div>
+     </footer>
+   </div>
+   <!--Footer-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

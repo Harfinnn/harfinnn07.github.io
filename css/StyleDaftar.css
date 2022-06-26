@@ -1,0 +1,14 @@
+nav{
+	background-color: darkgreen;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color:black;
+}
+
+footer{
+    background: darkgreen;
+    text-align: center;
+}

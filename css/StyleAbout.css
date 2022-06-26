@@ -1,0 +1,26 @@
+nav{
+	background-color: darkgreen;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.column{
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+    
+.card {
+    margin: 10px;
+    left: 50px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+footer{
+    background: darkgreen;
+    text-align: center;
+}
